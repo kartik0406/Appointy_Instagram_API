@@ -3,15 +3,12 @@ package main
 
 // Imported userdefined packages and standard libarary packages to the project
 import (
-	
 	"fmt"
 	"instagram_api/controller"
+	"github.com/gorilla/mux"
 	 route "instagram_api/handler"
 	"log"
 	"net/http"
-	"github.com/gorilla/mux"
-	
-	
 )
 
 //Connection of mongoDB with controller
