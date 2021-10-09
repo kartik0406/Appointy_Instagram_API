@@ -23,6 +23,9 @@ An Instagram API created in Go language.
 # List all posts of a user
 ![](https://github.com/kartik0406/Appointy_Instagram_API/blob/master/src/screenshots/img9.png)
 
+# Implemented a approach to Pagination in handler/getUserPost.go
+# Tried to Develop Unit testing to test request and response in test_endpoints.go
+
   
 
 
