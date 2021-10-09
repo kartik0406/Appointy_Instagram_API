@@ -1,6 +1,6 @@
 # Appointy_Instagram_API
 Task  | Instagram Backend API: 
-An Instagram RESTFUL API created in Go language and mongoDB Database
+An Instagram RESTFUL API created with Go and mongoDB as a Database.
 
 # Code Execution
 ![](https://github.com/kartik0406/Appointy_Instagram_API/blob/master/src/screenshots/img1.png)
