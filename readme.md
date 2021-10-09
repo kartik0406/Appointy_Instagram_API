@@ -1,8 +1,6 @@
 # Appointy_Instagram_API
 Task  | Instagram Backend API
 
-# Execution of Code
-![](https://github.com/kartik0406/Appointy_Instagram_API/blob/master/src/screenshots/img1.png)
 
 # Create an User
 ![](https://github.com/kartik0406/Appointy_Instagram_API/blob/master/src/screenshots/img2.png)
