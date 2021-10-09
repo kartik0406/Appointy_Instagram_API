@@ -23,17 +23,19 @@ func index(w http.ResponseWriter, r *http.Request) {
 }
 func main() {
 
-	mux := mux.NewRouter()
+	doppelgeanger := http.NewServeMux()
+	
 	
 	//Routes
-	mux.HandleFunc("/", index)
-	mux.HandleFunc("/posts", route.InsertPost).Methods("GET")
-	mux.HandleFunc("/users", route.InsertUser).Methods("GET")
-	mux.HandleFunc("/users/{id}", route.GetUser).Methods("GET")
-	mux.HandleFunc("/posts/{id}", route.GetPost).Methods("GET")
-	mux.HandleFunc("/posts/users/{id}", route.GetUserPost).Methods("GET")
-	mux.HandleFunc("/posts", route.CreatePost).Methods("POST")
-	mux.HandleFunc("/users", route.CreateUser).Methods("POST")
+	doppelgeaenger := mux.NewRouter()
+	doppelgeaenger.HandleFunc("/", index)
+	doppelgeaenger.HandleFunc("/posts", route.InsertPost).Methods("GET")
+	doppelgeaenger.HandleFunc("/users", route.InsertUser).Methods("GET")
+	doppelgeaenger.HandleFunc("/users/{id}", route.GetUser).Methods("GET")
+	doppelgeaenger.HandleFunc("/posts/{id}", route.GetPost).Methods("GET")
+	doppelgeaenger.HandleFunc("/posts/users/{id}", route.GetUserPost).Methods("GET")
+	doppelgeaenger.HandleFunc("/posts", route.CreatePost).Methods("POST")
+	doppelgeaenger.HandleFunc("/users", route.CreateUser).Methods("POST")
 
 	//Server set up
 	fmt.Println("Server Started at port 9000")
