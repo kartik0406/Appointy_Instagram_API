@@ -1,5 +1,6 @@
 # Appointy_Instagram_API
 Task  | Instagram Backend API
+An Instagram API created in Go language.
 
 
 # Create an User
