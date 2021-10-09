@@ -79,17 +79,19 @@ An Instagram RESTFUL API created in Go language and mongoDB Database
 * Caption
 * Image URL
 * Posted Timestamp
+* userId
 
 ## Added functionalities:
 
-1. Passwords have been encrypted and they can't be reverse engineered (using md5)
-2. Unit Testing code is developed to test the request and response routes 
+1. Passwords have been encrypted and they can't be reverse engineered (using md5).
+2. Unit Testing code is developed to test the request and response routes. 
 
 ## Instructions to Run and Setup:
 - Install go from https://golang.org/dl/
 - Install mongo dependencies (run go get go.mongodb.org/mongo-driver/mongo)
- Fork the project and download as a zip.
+- Fork the project and download as a zip.
 - Now extract and open the folder.
-- Now open the folder with terminal.
+- Now open the folder with terminal 
+- cd src 
 - Run commands: go run main.go
 - The server started locally at the port 9000.
