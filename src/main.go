@@ -33,10 +33,10 @@ func main() {
 	doppelgeaenger.HandleFunc("/posts/users/{id}", route.GetUserPost).Methods("GET")
 	doppelgeaenger.HandleFunc("/posts", route.CreatePost).Methods("POST")
 	doppelgeaenger.HandleFunc("/users", route.CreateUser).Methods("POST")
+	fmt.Println(doppelgeanger)
 
 	//Server set up
 	fmt.Println("Server Started at port 9000")
-	log.Fatal(http.ListenAndServe(":9000", mux))
-
+	log.Fatal(http.ListenAndServe(":9000", doppelgeaenger))
 }
 // Created by Kartik Khanna 19BCE0531 BTECH CSE 2019-2023 
